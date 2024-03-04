@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Noto Sans Mono SemiCondensed Bold';
+    src: url('../../../fonts/NotoSansMono_SemiCondensed-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Noto Sans Mono SemiCondensed Light';
+    src: url('../../../fonts/NotoSansMono_SemiCondensed-Light.ttf');
+}
+
+* {
+    -fx-font-family: 'Noto Sans Mono SemiCondensed Light';
+    -fx-font-size: 10;
+}
+
+.title {
+    -fx-font-size: 18;
+}
+
+#title-bold {
+    -fx-font-family: "Noto Sans Mono SemiCondensed Bold";
+}
+
+#sub-title {
+    -fx-font-size: 16;
+}
+
+.table-view {
+    -fx-background-color: none;
+    -fx-border-color: #0f1035;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.center-align {
+    -fx-alignment: CENTER;
+}
+
+.left-align {
+    -fx-alignment: CENTER_LEFT;
+}
+
+.table-column {
+    -fx-label-padding: 6;
+}
+
+.table-row-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent #0f1035 transparent;
+    -fx-font-weight: bold !important;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header-background {
+    --body-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-label-padding: 0;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header .filler {
+    -fx-background-color: #0f1035;
+}
+
+.table-view .column-header .sort-arrow {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  #0f1035;
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  #0f1035;
+}
+
+.button-view:hover {
+    -fx-background-color:  #365486!important;
+}
+
+.chart-pie {
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+}
+
+.chart-pie-label {
+    -fx-font-size: 8px;
+}
